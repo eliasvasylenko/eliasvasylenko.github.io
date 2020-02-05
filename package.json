@@ -1,0 +1,35 @@
+{
+  "name": "eliasvasylenko-website",
+  "version": "1.0.0",
+  "description": "Personal website of Elias Vasylenko.",
+  "scripts": {
+    "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eliasvasylenko/website"
+  },
+  "author": {
+    "name": "Elias Vasylenko",
+    "email": "elias@vasylenko.uk",
+    "url": "elias.vasylenko.uk"
+  },
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/eliasvasylenko/website/issues"
+  },
+  "homepage": "https://github.com/eliasvasylenko/website",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "luxon": "^1.22.0",
+    "markdown-it": "^10.0.0",
+    "markdown-it-anchor": "^5.2.5"
+  },
+  "dependencies": {
+    "clean-css": "^4.2.3",
+    "html-minifier": "^4.0.0",
+    "uglify-es": "^3.3.9"
+  }
+}
