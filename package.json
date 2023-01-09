@@ -23,7 +23,7 @@
   "homepage": "https://github.com/eliasvasylenko/website",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
-    "luxon": "^1.22.0",
+    "luxon": "^1.28.1",
     "markdown-it": "^10.0.0"
   },
   "dependencies": {
